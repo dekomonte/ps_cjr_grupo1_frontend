@@ -14,12 +14,18 @@ function LoginA() {
         <img src="https://i0.wp.com/psto.unb.br/wp-content/uploads/2020/07/Marca-UnB.png?fit=897%2C230&ssl=1" alt="" />
       </div>
       <div className="info"> {/*aqui é a outra subdiv que contém toda a parte que o usuário vai interagir*/}
-        <div className="form">
-          {/*título de início apresnetando o site e o nome do site*/}
-          <h1 className="titulo">Bem vindo(a) ao <strong>Avalia</strong></h1>
+        <div className="cabecalho">
+          <h1 className="titulo">Bem-vindo(a) ao <strong>Avalia</strong></h1>
           {/*deixei uma frase pra explicar melhor a funcionalidade do site*/}
           <p className='subtitulo'>Avalie seus professores de forma <strong>anônima, sincera e segura.</strong></p>
+          </div>
+        <div className="form">
+          {/*título de início apresnetando o site e o nome do site*/}
+          
           <form>
+            <div className="corpo"> 
+
+            
             <div className="infow">
               <h2>Log in</h2> 
               <input type="email" placeholder="E-mail"/> {/*digitar o email do usuário*/}
@@ -49,16 +55,18 @@ function LoginA() {
                   )}
                 </button>
               </div>
-            </div>
-            <div className="infob">
+              <div className="infob">
               <button type="submit">Entrar</button> {/*o usuário clica no botão para entrar na conta dele*/}
             </div>
+            </div>
+            
             <p className="linkarpaginas">
                 Não tem conta?{' '}
                 <Link to="/criar-conta" className="link">
                 <strong>Criar conta</strong>
                 </Link> {/*aqui eu preferi colocar um texto, que indica a outra página de criar conta, e não um botão em si*/}
               </p>
+              </div>
           </form>
         </div>
       </div>

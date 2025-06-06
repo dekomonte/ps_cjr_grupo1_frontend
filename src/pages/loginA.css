@@ -26,27 +26,31 @@ body { /*aq é o corpo todo do código, eu queria que ele ficasse com width e he
   color: #0f1766;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 60px;
 }
 
 .infow {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 30px;
+  align-items: flex-start;
   width: 100%;
   max-width: 320px;
+  margin-top: 110px;
 }
 
 .titulo {
-  font-size: 40px;
+  font-size: 50px !important;
   text-align: center;
   width: 100%;
 }
 
+.titulo strong {
+  font-size: 50px !important;
+}
+
 .subtitulo {
-  font-size: 14px;
+  font-size: 17px;
   text-align: center;
   color: #333;
   margin-top: -10px;
@@ -63,6 +67,11 @@ h2 {
   flex-direction: column;
   gap: 20px;
   width: 100%;
+  padding-top: 1px;
+}
+
+form {
+  margin-top: px;
 }
 
 input {
@@ -90,10 +99,15 @@ input:focus {
 }
 
 .infob {
-  display: flex;
+  display: block;
   gap: 15px;
-  justify-content: center;
-  margin-top: 20px;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+.infob button {
+  position: relative;
+  top: -17px;
 }
 
 button {
@@ -102,6 +116,7 @@ button {
   color: #ffffff;
   padding: 12px 24px;
   border-radius: 8px;
+  display: inline-block;
   font-weight: bold;
   cursor: pointer;
   text-align: center;
@@ -177,4 +192,22 @@ button:active {
 
 .link:hover {
   text-decoration: underline;
+}
+
+.cabecalho {
+  position: fixed;
+  top: 0;
+  padding-top: 120px;
+  /* pro cabecalho mais no topo poe em 50px */
+  text-align: center;
+  padding-bottom: 30px;
+  /* border: 1px dashed blue; */
+}
+
+.corpo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2px;
+  /* border: 1px dashed red; */
 }
