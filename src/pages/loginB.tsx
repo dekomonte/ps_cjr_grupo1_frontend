@@ -50,6 +50,9 @@ function LoginB() {
       </div>
 
       <div className="info">
+        <div className="conteudo-info">
+          
+        
         <div className="form">
           <form>
             <div className="infow">
@@ -97,7 +100,8 @@ function LoginB() {
             </p>
           </form>
         </div>
-      </div>
+        </div>
+    </div>
     </div>
   );
 }

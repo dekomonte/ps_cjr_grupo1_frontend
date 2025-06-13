@@ -3,7 +3,7 @@ body { /*aq é o corpo todo do código, eu queria que ele ficasse com width e he
   width: 100%;
   height: 100%;
   font-family: "Karla", Arial, Helvetica, sans-serif; /*gostei da fonte karla*/
-  background-color: #f5f5f5;
+  background-color: #011e20;
 }
 
 .login { /*o previsto é que a página de login conseguisse alcançar todo o width e height da página*/
@@ -14,7 +14,7 @@ body { /*aq é o corpo todo do código, eu queria que ele ficasse com width e he
 
 .imagem {
   flex: 1; /*no caso aqui tem a logo da unb, eu entendi que isso faria as duas divs, de imagem e info dividirem a tela*/
-  background-color: #0f1766;
+  background-color: #021d76;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,12 +22,13 @@ body { /*aq é o corpo todo do código, eu queria que ele ficasse com width e he
 
 .info {
   flex: 1;
-  background-color: #ffffff;
-  color: #0f1766;
+  background-color: #162e64;
+  color: #dbfcff;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 60px;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 60px;
 }
 
 .infow {
@@ -36,7 +37,8 @@ body { /*aq é o corpo todo do código, eu queria que ele ficasse com width e he
   align-items: flex-start;
   width: 100%;
   max-width: 320px;
-  margin-top: 110px;
+  margin-top: 120px;
+  margin-left: 170px;
 }
 
 .titulo {
@@ -52,7 +54,7 @@ body { /*aq é o corpo todo do código, eu queria que ele ficasse com width e he
 .subtitulo {
   font-size: 17px;
   text-align: center;
-  color: #333;
+  color: #a7d3d7;
   margin-top: -10px;
 }
 
@@ -179,10 +181,11 @@ button:active {
 }
 
 .linkarpaginas {
-  color: #000;
+  color: #dbfcff;
   font-size: 14px;
   align-items: center;
   justify-content: center;
+  margin-left: 10px;
 }
 
 .link {
